@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+​
+button {
+    border-radius: 10px;
+    border-color: white;
+    border-width: 0px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    color: rgba(204, 0, 255, 0.747);
+    margin-top: 25px;
+    margin-right: 20px;
+}
+​
+h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+    margin-left: -200px;
+}
+​
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+​
+.centered {
+    margin: auto;
+    width: 0%;
+    padding: 10px;
+    margin-top: 50px;
+}
+​
+.controlButton {
+    font-size: 15px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+​
+#logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+​
+#roomheading {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 10000px;
+    padding: 0px;
+}
+​
+#platform {
+    width: 150px;
+    margin-left: -75px;
+    padding: 0px;
+}
+​
+table {
+    margin-left: -500px;
+    width: 1000px;
+    align-items: center;
+}
+​
+#roomname {
+    color: white;
+}
+​
+.tableClass th[scope=col] {
+    width: 500px;
+    margin-left: -250px;
+}
+​
+input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: rgba(204, 0, 255, 0.747);
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+​
+#RightColumn {
+    position: relative;
+    float: right;
+    height: 100vh;
+    width: 350px;
+    background-color: gray;
+}
+#ControlRow {
+    float: top;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(204, 0, 255, 0.747);
+}
+​
+#fvideourl {
+    margin-left: -200px;
+    width: 400px;
+    font-size: 20px;
+    height: 30px;
+}
+​
+#btnHome {
+    margin-left: 20px;
+}
+​
+#btnSignout {
+    float: right;
+}
+​
+* {
+    margin: 0;
+}
